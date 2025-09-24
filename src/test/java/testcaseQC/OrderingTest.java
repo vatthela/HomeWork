@@ -15,7 +15,6 @@ import pageObject.LoginPage;
 import pageObject.ProductPage;
 
 public class OrderingTest {
-    //public PageObjectManager pageObjectManager;
     private WebDriver driver;
     @BeforeTest
     @Parameters("browser")

@@ -1,0 +1,41 @@
+name: Automated Test Execution
+
+# Các sự kiện kích hoạt workflow này
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+# Định nghĩa các job sẽ chạy trong workflow
+jobs:
+  # Tên của job
+  build-and-test:
+    # Chọn hệ điều hành cho máy ảo (Runner)
+    runs-on: ubuntu-latest
+
+    # Các bước thực thi
+    steps:
+      # Bước 1: Lấy mã nguồn từ repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Bước 2: Thiết lập môi trường Java
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: 'maven'
+
+      # Bước 3: Chạy các test Maven
+      - name: Run Maven Tests
+        run: mvn clean test
+
+      # Bước 4: Lưu báo cáo HTML (nếu test fail hoặc pass)
+      - name: Archive Test Reports
+        if: always() 
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-reports
+          path: target/ExtentReports 

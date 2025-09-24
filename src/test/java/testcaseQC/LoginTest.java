@@ -7,10 +7,6 @@ import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
 import org.testng.annotations.Test;
-
-import pageObject.CartPage;
-import pageObject.CheckoutPage;
-import pageObject.ConfirmCheckoutPage;
 import pageObject.LoginPage;
 import pageObject.ProductPage;
 
@@ -37,11 +33,11 @@ public class LoginTest {
     @DataProvider(name = "loginData")
     public Object[][] getLoginData() {
         return new Object[][]{
-            {"problem_user", "secret_sauce"},
-            {"", "secret_sauce"},
-            {"problem_user", ""},
-            {"incorrect_username", "secret_sauce"},
-            {"problem_user", "incorrect_password"},
+            {"problem_user", "secret_sauce"}, //Testcase 1
+            {"", "secret_sauce"}, //Testcase 2
+            {"problem_user", ""}, //Testcase 3
+            {"incorrect_username", "secret_sauce"}, //Testcase 4
+            {"problem_user", "incorrect_password"}, //Testcase 5
         };
     }
 
@@ -53,7 +49,7 @@ public class LoginTest {
         loginPage.inputPassword(password);
         loginPage.clickLoginButton();
         ProductPage productPage = new ProductPage(driver);
-        Assert.assertTrue(productPage.verifyProductPageIsPageLoaded(), "Login failed or Product Page not loaded.");
+        Assert.assertTrue(productPage.verifyProductPageIsPageLoaded(), "Login failed");
     }
 
     @AfterMethod

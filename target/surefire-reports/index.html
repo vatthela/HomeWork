@@ -103,12 +103,12 @@
                     <div class="method-list-content failed suite-HomeWork">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-HomeWork" title="testcaseQC.LoginTest" class="method navigator-link" hash-for-method="testLogin(problem_user, incorrect_password)">testLogin(problem_user, incorrect_password)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-HomeWork" title="testcaseQC.LoginTest" class="method navigator-link" hash-for-method="testLogin(incorrect_username, secret_sauce)">testLogin(incorrect_username, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-HomeWork" title="testcaseQC.LoginTest" class="method navigator-link" hash-for-method="testLogin(incorrect_username, secret_sauce)">testLogin(incorrect_username, secret_sauce)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-HomeWork" title="testcaseQC.LoginTest" class="method navigator-link" hash-for-method="testLogin(problem_user, incorrect_password)">testLogin(problem_user, incorrect_password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -160,19 +160,19 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogin(problem_user, incorrect_password)">
-                  </a> <!-- testLogin(problem_user, incorrect_password) -->
+                  <a name="testLogin(incorrect_username, secret_sauce)">
+                  </a> <!-- testLogin(incorrect_username, secret_sauce) -->
                   <span class="method-name">testLogin</span>
-                  <span class="parameters">(problem_user,incorrect_password)</span>
+                  <span class="parameters">(incorrect_username,secret_sauce)</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.title&quot;}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b70f6d20716d42c9f07b961d86015761, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62633}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62633/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b70f6d20716d42c9f07b961d86015761
+Command: [1d8355fcec899661f2db3cd0ce4e452f, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53354/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d8355fcec899661f2db3cd0ce4e452f
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -185,7 +185,7 @@ Session ID: b70f6d20716d42c9f07b961d86015761
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at pageObject.ProductPage.verifyProductPageIsPageLoaded(ProductPage.java:34)
-	at testcaseQC.LoginTest.testLogin(LoginTest.java:56)
+	at testcaseQC.LoginTest.testLogin(LoginTest.java:52)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
@@ -197,19 +197,19 @@ Session ID: b70f6d20716d42c9f07b961d86015761
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogin(incorrect_username, secret_sauce)">
-                  </a> <!-- testLogin(incorrect_username, secret_sauce) -->
+                  <a name="testLogin(problem_user, incorrect_password)">
+                  </a> <!-- testLogin(problem_user, incorrect_password) -->
                   <span class="method-name">testLogin</span>
-                  <span class="parameters">(incorrect_username,secret_sauce)</span>
+                  <span class="parameters">(problem_user,incorrect_password)</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.title&quot;}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1f66a086948b628f842bcf7316c80df0, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62598/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f66a086948b628f842bcf7316c80df0
+Command: [e104d17a40658799c4ec246dcc8d4c61, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53382/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e104d17a40658799c4ec246dcc8d4c61
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -222,7 +222,7 @@ Session ID: 1f66a086948b628f842bcf7316c80df0
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at pageObject.ProductPage.verifyProductPageIsPageLoaded(ProductPage.java:34)
-	at testcaseQC.LoginTest.testLogin(LoginTest.java:56)
+	at testcaseQC.LoginTest.testLogin(LoginTest.java:52)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
@@ -239,14 +239,14 @@ Session ID: 1f66a086948b628f842bcf7316c80df0
                   <span class="method-name">testLogin</span>
                   <span class="parameters">(,secret_sauce)</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.title&quot;}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6231ea346f317a35b7ac254793a37fc4, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62537/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6231ea346f317a35b7ac254793a37fc4
+Command: [4df5abf166bac94cca6712e79e0f6a2e, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53290/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4df5abf166bac94cca6712e79e0f6a2e
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -259,7 +259,7 @@ Session ID: 6231ea346f317a35b7ac254793a37fc4
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at pageObject.ProductPage.verifyProductPageIsPageLoaded(ProductPage.java:34)
-	at testcaseQC.LoginTest.testLogin(LoginTest.java:56)
+	at testcaseQC.LoginTest.testLogin(LoginTest.java:52)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
@@ -276,14 +276,14 @@ Session ID: 6231ea346f317a35b7ac254793a37fc4
                   <span class="method-name">testLogin</span>
                   <span class="parameters">(problem_user,)</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.title&quot;}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [19baf83e0ff6795889d48544f23f32d9, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62568/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 19baf83e0ff6795889d48544f23f32d9
+Command: [a620105d3a81b39bb9faea176a8a40b5, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53329/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a620105d3a81b39bb9faea176a8a40b5
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -296,7 +296,7 @@ Session ID: 19baf83e0ff6795889d48544f23f32d9
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at pageObject.ProductPage.verifyProductPageIsPageLoaded(ProductPage.java:34)
-	at testcaseQC.LoginTest.testLogin(LoginTest.java:56)
+	at testcaseQC.LoginTest.testLogin(LoginTest.java:52)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
@@ -408,32 +408,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testOrdering')
 data.setCell(0, 2, 'testcaseQC.OrderingTest')
-data.setCell(0, 3, 901);
+data.setCell(0, 3, 1262);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogin')
 data.setCell(1, 2, 'testcaseQC.LoginTest')
-data.setCell(1, 3, 330);
+data.setCell(1, 3, 570);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testLogin')
 data.setCell(2, 2, 'testcaseQC.LoginTest')
-data.setCell(2, 3, 255);
+data.setCell(2, 3, 444);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testLogin')
 data.setCell(3, 2, 'testcaseQC.LoginTest')
-data.setCell(3, 3, 223);
+data.setCell(3, 3, 304);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testLogin')
 data.setCell(4, 2, 'testcaseQC.LoginTest')
-data.setCell(4, 3, 220);
+data.setCell(4, 3, 268);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testLogin')
 data.setCell(5, 2, 'testcaseQC.LoginTest')
-data.setCell(5, 3, 199);
+data.setCell(5, 3, 243);
 window.suiteTableData['HomeWork']= { tableData: data, tableDiv: 'times-div-HomeWork'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-HomeWork">
               </div> <!-- times-div-HomeWork -->
             </div> <!-- times-div -->
@@ -469,31 +469,27 @@ return data;
               <div class="chronological-class-name">testcaseQC.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, org.testng.TestRunner@4d1c00d0)</span>
-                <span class="method-start">15 ms</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogin(problem_user, secret_sauce)</span>
-                <span class="method-start">3411 ms</span>
+                <span class="method-start">4551 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">3668 ms</span>
+                <span class="method-start">5124 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, org.testng.TestRunner@4d1c00d0)</span>
-                <span class="method-start">3938 ms</span>
+                <span class="method-start">5420 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcaseQC.OrderingTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testOrdering</span>
-                <span class="method-start">4766 ms</span>
+                <span class="method-start">9291 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">5667 ms</span>
-              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcaseQC.LoginTest</div> <!-- chronological-class-name -->
@@ -501,53 +497,63 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLogin(, secret_sauce)</span>
-                <span class="method-start">6785 ms</span>
+                <span class="method-start">10013 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcaseQC.OrderingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10556 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcaseQC.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">7078 ms</span>
+                <span class="method-start">10642 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, org.testng.TestRunner@4d1c00d0)</span>
-                <span class="method-start">7251 ms</span>
+                <span class="method-start">10928 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLogin(problem_user, )</span>
-                <span class="method-start">9690 ms</span>
+                <span class="method-start">14182 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">10038 ms</span>
+                <span class="method-start">14562 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, org.testng.TestRunner@4d1c00d0)</span>
-                <span class="method-start">10231 ms</span>
+                <span class="method-start">14764 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLogin(incorrect_username, secret_sauce)</span>
-                <span class="method-start">12996 ms</span>
+                <span class="method-start">17384 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">13351 ms</span>
+                <span class="method-start">17814 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, org.testng.TestRunner@4d1c00d0)</span>
-                <span class="method-start">13530 ms</span>
+                <span class="method-start">18048 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLogin(problem_user, incorrect_password)</span>
-                <span class="method-start">16279 ms</span>
+                <span class="method-start">20779 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">16709 ms</span>
+                <span class="method-start">21153 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

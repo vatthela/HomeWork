@@ -3,12 +3,12 @@
     <listeners>
         <listener class-name="ultis.TestListener"/>
     </listeners>
-    
+
     <test name="Chrome Test">
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="testcaseQC.LoginTest"/>
-        </classes>
+        </classes> 
     </test>
 
     <test name="Firefox Test">
@@ -17,5 +17,4 @@
             <class name="testcaseQC.OrderingTest"/>
         </classes>
     </test>
-
 </suite>

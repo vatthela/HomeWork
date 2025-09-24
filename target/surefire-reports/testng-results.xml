@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-24T19:27:49 ICT" name="HomeWork" finished-at="2025-09-24T19:28:06 ICT" duration-ms="16931">
+  <suite started-at="2025-09-24T23:00:19 ICT" name="HomeWork" finished-at="2025-09-24T23:00:40 ICT" duration-ms="21386">
     <groups>
     </groups>
-    <test started-at="2025-09-24T19:27:49 ICT" name="Firefox Test" finished-at="2025-09-24T19:27:56 ICT" duration-ms="6756">
+    <test started-at="2025-09-24T23:00:19 ICT" name="Firefox Test" finished-at="2025-09-24T23:00:31 ICT" duration-ms="11981">
       <class name="testcaseQC.OrderingTest">
-        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.OrderingTest@55183b20]" started-at="2025-09-24T19:27:49 ICT" name="setup" finished-at="2025-09-24T19:27:54 ICT" duration-ms="4766" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.OrderingTest@55183b20]" started-at="2025-09-24T23:00:19 ICT" name="setup" finished-at="2025-09-24T23:00:28 ICT" duration-ms="9290" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,19 +23,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testOrdering()[pri:0, instance:testcaseQC.OrderingTest@55183b20]" started-at="2025-09-24T19:27:54 ICT" name="testOrdering" finished-at="2025-09-24T19:27:55 ICT" duration-ms="901" status="PASS">
+        <test-method signature="testOrdering()[pri:0, instance:testcaseQC.OrderingTest@55183b20]" started-at="2025-09-24T23:00:28 ICT" name="testOrdering" finished-at="2025-09-24T23:00:29 ICT" duration-ms="1262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrdering -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.OrderingTest@55183b20]" started-at="2025-09-24T19:27:55 ICT" name="teardown" finished-at="2025-09-24T19:27:56 ICT" duration-ms="1072" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.OrderingTest@55183b20]" started-at="2025-09-24T23:00:29 ICT" name="teardown" finished-at="2025-09-24T23:00:31 ICT" duration-ms="1412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcaseQC.OrderingTest -->
     </test> <!-- Firefox Test -->
-    <test started-at="2025-09-24T19:27:49 ICT" name="Chrome Test" finished-at="2025-09-24T19:28:06 ICT" duration-ms="16931">
+    <test started-at="2025-09-24T23:00:19 ICT" name="Chrome Test" finished-at="2025-09-24T23:00:40 ICT" duration-ms="21386">
       <class name="testcaseQC.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:49 ICT" name="setup" finished-at="2025-09-24T19:27:53 ICT" duration-ms="3396" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:19 ICT" name="setup" finished-at="2025-09-24T23:00:23 ICT" duration-ms="4531" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:53 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T19:27:53 ICT" duration-ms="255" status="PASS">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:23 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T23:00:24 ICT" duration-ms="570" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:53 ICT" name="teardown" finished-at="2025-09-24T19:27:53 ICT" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:24 ICT" name="teardown" finished-at="2025-09-24T23:00:24 ICT" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:53 ICT" name="setup" finished-at="2025-09-24T19:27:56 ICT" duration-ms="2847" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:24 ICT" name="setup" finished-at="2025-09-24T23:00:29 ICT" duration-ms="4593" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:56 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T19:27:56 ICT" duration-ms="199" status="FAIL">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:29 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T23:00:29 ICT" duration-ms="444" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -103,25 +103,25 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".title"}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6231ea346f317a35b7ac254793a37fc4, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62537/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6231ea346f317a35b7ac254793a37fc4]]>
+Command: [4df5abf166bac94cca6712e79e0f6a2e, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53290/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4df5abf166bac94cca6712e79e0f6a2e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".title"}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6231ea346f317a35b7ac254793a37fc4, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62537/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6231ea346f317a35b7ac254793a37fc4
+Command: [4df5abf166bac94cca6712e79e0f6a2e, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53290/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4df5abf166bac94cca6712e79e0f6a2e
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -137,7 +137,7 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at pageObject.ProductPage.verifyProductPageIsPageLoaded(ProductPage.java:34)
-at testcaseQC.LoginTest.testLogin(LoginTest.java:56)
+at testcaseQC.LoginTest.testLogin(LoginTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -164,11 +164,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:56 ICT" name="teardown" finished-at="2025-09-24T19:27:56 ICT" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:29 ICT" name="teardown" finished-at="2025-09-24T23:00:30 ICT" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:56 ICT" name="setup" finished-at="2025-09-24T19:27:59 ICT" duration-ms="2439" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:30 ICT" name="setup" finished-at="2025-09-24T23:00:33 ICT" duration-ms="3254" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,7 +184,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:59 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T19:27:59 ICT" duration-ms="223" status="FAIL">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:33 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T23:00:33 ICT" duration-ms="243" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -200,25 +200,25 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".title"}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [19baf83e0ff6795889d48544f23f32d9, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62568/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 19baf83e0ff6795889d48544f23f32d9]]>
+Command: [a620105d3a81b39bb9faea176a8a40b5, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53329/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a620105d3a81b39bb9faea176a8a40b5]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".title"}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [19baf83e0ff6795889d48544f23f32d9, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62568/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 19baf83e0ff6795889d48544f23f32d9
+Command: [a620105d3a81b39bb9faea176a8a40b5, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53329/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a620105d3a81b39bb9faea176a8a40b5
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -234,7 +234,7 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at pageObject.ProductPage.verifyProductPageIsPageLoaded(ProductPage.java:34)
-at testcaseQC.LoginTest.testLogin(LoginTest.java:56)
+at testcaseQC.LoginTest.testLogin(LoginTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -261,11 +261,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:59 ICT" name="teardown" finished-at="2025-09-24T19:27:59 ICT" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:33 ICT" name="teardown" finished-at="2025-09-24T23:00:34 ICT" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:27:59 ICT" name="setup" finished-at="2025-09-24T19:28:02 ICT" duration-ms="2765" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:34 ICT" name="setup" finished-at="2025-09-24T23:00:36 ICT" duration-ms="2620" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -281,7 +281,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:28:02 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T19:28:02 ICT" duration-ms="220" status="FAIL">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:36 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T23:00:36 ICT" duration-ms="304" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -297,25 +297,25 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".title"}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1f66a086948b628f842bcf7316c80df0, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62598/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f66a086948b628f842bcf7316c80df0]]>
+Command: [1d8355fcec899661f2db3cd0ce4e452f, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53354/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d8355fcec899661f2db3cd0ce4e452f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".title"}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1f66a086948b628f842bcf7316c80df0, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62598/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f66a086948b628f842bcf7316c80df0
+Command: [1d8355fcec899661f2db3cd0ce4e452f, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53354/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d8355fcec899661f2db3cd0ce4e452f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -331,7 +331,7 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at pageObject.ProductPage.verifyProductPageIsPageLoaded(ProductPage.java:34)
-at testcaseQC.LoginTest.testLogin(LoginTest.java:56)
+at testcaseQC.LoginTest.testLogin(LoginTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -358,11 +358,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:28:03 ICT" name="teardown" finished-at="2025-09-24T19:28:03 ICT" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:37 ICT" name="teardown" finished-at="2025-09-24T23:00:37 ICT" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:28:03 ICT" name="setup" finished-at="2025-09-24T19:28:05 ICT" duration-ms="2749" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:37 ICT" name="setup" finished-at="2025-09-24T23:00:40 ICT" duration-ms="2731" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -378,7 +378,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:28:05 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T19:28:06 ICT" duration-ms="330" status="FAIL">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:40 ICT" name="testLogin" data-provider="loginData" finished-at="2025-09-24T23:00:40 ICT" duration-ms="268" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -394,25 +394,25 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".title"}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b70f6d20716d42c9f07b961d86015761, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62633}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62633/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b70f6d20716d42c9f07b961d86015761]]>
+Command: [e104d17a40658799c4ec246dcc8d4c61, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53382/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e104d17a40658799c4ec246dcc8d4c61]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".title"}
-  (Session info: chrome=140.0.7339.128)
+  (Session info: chrome=140.0.7339.207)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b70f6d20716d42c9f07b961d86015761, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62633}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62633/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b70f6d20716d42c9f07b961d86015761
+Command: [e104d17a40658799c4ec246dcc8d4c61, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\LAM~1.BUI\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53382/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e104d17a40658799c4ec246dcc8d4c61
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -428,7 +428,7 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at pageObject.ProductPage.verifyProductPageIsPageLoaded(ProductPage.java:34)
-at testcaseQC.LoginTest.testLogin(LoginTest.java:56)
+at testcaseQC.LoginTest.testLogin(LoginTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -455,7 +455,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T19:28:06 ICT" name="teardown" finished-at="2025-09-24T19:28:06 ICT" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcaseQC.LoginTest@479d31f3]" started-at="2025-09-24T23:00:40 ICT" name="teardown" finished-at="2025-09-24T23:00:40 ICT" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
