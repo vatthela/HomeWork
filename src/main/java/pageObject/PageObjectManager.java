@@ -7,6 +7,8 @@ public class PageObjectManager {
     public ProductPage productPage;
     public CartPage cartPage;
     public WebDriver driver;
+    public CheckoutPage checkoutPage;
+    public ConfirmCheckoutPage confirmCheckoutPage;
 
     public PageObjectManager(WebDriver driver) {
         this.driver = driver;
@@ -25,6 +27,15 @@ public class PageObjectManager {
     public CartPage getCartPage() {
         cartPage = new CartPage(driver);
         return cartPage;
+    }
+
+    public CheckoutPage getCheckoutPage() {
+        checkoutPage = new CheckoutPage(driver);
+        return checkoutPage;
+    }
+    public ConfirmCheckoutPage getConfirmCheckoutPage() {
+        confirmCheckoutPage = new ConfirmCheckoutPage(driver);
+        return confirmCheckoutPage;
     }
 
 }

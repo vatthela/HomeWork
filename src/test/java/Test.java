@@ -1,12 +1,15 @@
-package testcaseQC;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import com.pageObject.CartPage;
+import org.testng.Assert;
+import pageObject.CartPage;
+import pageObject.CheckoutPage;
+import pageObject.ConfirmCheckoutPage;
 import pageObject.LoginPage;
 import pageObject.ProductPage;
 
-public class DemoTest {
+public class Test {
     //public PageObjectManager pageObjectManager;
 
     public static void main(String[] args) {
@@ -28,8 +31,18 @@ public class DemoTest {
         productPage.addToCart(productName);
         productPage.clickCartButton();
         CartPage cartPage = new CartPage(driver);
+        String actualCartProductName = cartPage.getInventoryItemName();
+        Assert.assertEquals(actualCartProductName, productName);
         cartPage.clickCheckoutButton();
-        pageObject.CheckoutPage
-
-    }
+        CheckoutPage checkoutPage = new CheckoutPage(driver);
+        checkoutPage.inputFirstname(firstName);
+        checkoutPage.inputLastname(lastName);
+        checkoutPage.inputPostcode(postCode);
+        checkoutPage.clickContinueButton();
+        ConfirmCheckoutPage confirmCheckoutPage = new ConfirmCheckoutPage(driver);
+        String actualProductName = confirmCheckoutPage.getInventoryItemName();
+        Assert.assertEquals(actualProductName, productName);
+        confirmCheckoutPage.clickFinishButton();
+        driver.quit();
+    }   
 }

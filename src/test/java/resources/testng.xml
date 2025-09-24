@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomeWork" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="ultis.TestListener"/>
+    </listeners>
+    
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testcaseQC.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testcaseQC.OrderingTest"/>
+        </classes>
+    </test>
+
+</suite>

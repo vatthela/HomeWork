@@ -1,0 +1,7 @@
+pageObject\ConfirmCheckoutPage.class
+Main.class
+pageObject\ProductPage.class
+pageObject\PageObjectManager.class
+pageObject\CheckoutPage.class
+pageObject\CartPage.class
+pageObject\LoginPage.class
