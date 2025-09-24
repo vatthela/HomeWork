@@ -3,27 +3,36 @@ package pageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ProductPage {
+public class CheckoutPage {
     WebDriver driver;
-    By cartButton = By.xpath("//a[@class='shopping_cart_link']");
-    By inventoryItemName = By.xpath(".//*[@class='inventory_item_name ']");
+    By firstNameInput = By.xpath("//input[@id='first-name']");
+    By lastNameInput = By.xpath("//input[@id='last-name']");
+    By postCodeInput = By.xpath("//input[@id='postal-code']");
+    By continueButton = By.xpath("//button[@id='continue']");
 
-    public ProductPage(WebDriver driver) {
+    public CheckoutPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    public boolean verifyProduct (String productName){
-        String product = driver.findElement(inventoryItemName).getText();
-        return product.equalsIgnoreCase(productName);
-    }
-
-    public void addToCart(String productName){
-        By addToCartButton = By.xpath("//div[contains(text(), '"+productName+"')]/ancestor::div[@class='inventory_item']//button[text()='Add to cart']");
-        driver.findElement(addToCartButton).click();
+    public void inputFirstname(String firstname) {
+        driver.findElement(firstNameInput).sendKeys(firstname);
 
     }
-    public void clickCartButton() {
-        driver.findElement(cartButton).click();
+
+    public void inputLastname(String lastname) {
+        driver.findElement(lastNameInput).sendKeys(lastname);
+    }
+
+    public void inputPostcode(String postcode) {
+        driver.findElement(postCodeInput).sendKeys(postcode);
+    }
+
+    public void clickContinueButton() {
+        driver.findElement(continueButton).click();
     }
 }
+
+
+
+
 
